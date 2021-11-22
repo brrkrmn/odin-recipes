@@ -1,0 +1,37 @@
+.title {
+  text-align: center;
+  font-family: "Lucida Console", monospace;
+  color: #424242;
+  font-size: 60px;
+}
+
+.list {
+  width: 1300px;
+  display: table;
+  table-layout: fixed;
+  font-family: "Lucida Console", monospace;
+}
+
+ul li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  background-color: #424242;
+}
+
+.list li a {
+  color: white;
+  text-decoration: none;
+}
+
+#banner {
+  display: block;
+}
+
+.meals-img {
+  height: auto;
+  width: 290px;
+  display: inline-block;
+  margin: 0 6.2%;
+}
